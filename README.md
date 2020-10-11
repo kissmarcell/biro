@@ -30,7 +30,7 @@ Saját kódszerkesztő megadására többféle lehetőség is rendelkezésre ál
 {
     // Visual Studio Code
     "editor": "C:/Users/Felhasznalo/AppData/Local/Programs/Microsoft VS Code/bin/code.cmd",
-    //vagy
+    // vagy
     "editor": "/usr/bin/code",
     // vagy
     "editor": "code",
