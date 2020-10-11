@@ -6,7 +6,7 @@ Ez a program a Szegedi Tudományegyetemen kódellenőrzésre használt, bíró n
 Forráskódból való futtatás esetén a szükséges modulok megtalálhatóak a *requirements.txt* állományban.
 
 A program használatához szükséges a *config.json* fájl kitöltése.
-```json
+```js
 {
     // Az éppen használt bíró elérhetősége
     "biro_url": "https://biro.inf.u-szeged.hu/",
@@ -26,12 +26,8 @@ A projekt a letöltés után automatikusan megnyílik a konfigurációs fájlban
 
 ## Saját szövegszerkesztő megadása
 Saját kódszerkesztő megadására többféle lehetőség is rendelkezésre áll.
-```json
+```js
 {
-    // Kódszerkesztő használatának mellőzése
-    // ebben az esetben az adatsor akár törölhető is
-    "editor":"",
-
     // Visual Studio Code
     "editor": "C:/Users/Felhasznalo/AppData/Local/Programs/Microsoft VS Code/bin/code.cmd",
     //vagy
@@ -41,7 +37,6 @@ Saját kódszerkesztő megadására többféle lehetőség is rendelkezésre ál
 
     // Atom
     "editor": "atom"
-
 }
 ```
 Olyan kódszerkesztő szoftver használata érdemes, amely képes mappák megnyitására, ellentétes esetben (pl. Notepad) valószínűleg hibaüzenet vagy hibás működés várható.
